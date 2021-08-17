@@ -1,0 +1,144 @@
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+#northwood_symbol {
+    height:35px;
+}
+
+#title {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -10px;
+}
+
+#features {
+    margin-top: -10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#title_text {
+    color: white;
+    font-size: 18px;
+}
+
+#get_started, #about_us, #contact {
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about_us {
+    background-color: #262f4a;
+    border: 1.5px solid #262f4a;
+    text-decoration: none;
+    color: white;
+}
+
+
+#about_us:hover {
+    background-color: #344166;
+    border-color: #344166;
+}
+
+#container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button_get_started, #button_about, #button_contact {
+    display: inline;
+    text-align: center;
+}
+
+#get_started, #about_us, #contact {
+    width: 110px;
+    height: 40px;
+}
+
+#about_us, #contact {
+    margin-left: 12px;
+}
+
+
+#section1 {
+    width:300px;
+    height:300px;
+    text-align: left;
+    flex-basis: 400px;
+    margin: 5px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+    
+#section2 {
+     max-width:600px;
+     max-height:400px;
+     flex-basis: 520px;
+     margin: 5px 50px;
+}
+
+.col {
+    text-align: center;
+}
+#section3, #section4, #section5 {
+    margin-top: 15px;
+}
+
+#feature_title {
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#feature_description {
+    color: white;
+    padding: 0 55px;
+    font-weight: lighter;
+    margin-top: -10px;
+    margin-bottom: 100px;
+}
+
+
+@media (max-width:1200px) {
+    #section1 {
+        width:300px;
+        height:320px;
+        text-align: left;
+        flex-basis: 450px;
+        margin: 5px;
+        margin-top: -10px;
+    }
+
+    #section2 {
+        width:600px;
+        height:350px;
+        text-align: center;
+        flex-basis: 550px;
+        margin: 5px;
+        margin-top: -20px;
+    }
+    
+    #title_text {
+        font-size: 17px;
+    }
+}
